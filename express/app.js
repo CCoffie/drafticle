@@ -7,7 +7,7 @@ import opentype from "opentype.js";
 import PDFDocument from "pdfkit";
 import SVGtoPDF from "svg-to-pdfkit";
 import { Base64Encode } from "base64-stream";
-import EditorNode from "../src/EditorNode.js";
+import EditorNode from "../interface/src/canvas/EditorNode.js";
 import Templates from "./templates.js";
 import { encode, decode } from "node-base64-image";
 fabric._encode = encode;
